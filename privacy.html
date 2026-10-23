@@ -8,7 +8,7 @@
 
 <h2>Données recueillies</h2>
 <ul>
-<li><strong>Compte.</strong> Au premier lancement, tvQ crée une session anonyme Firebase (un identifiant aléatoire). Si vous créez un compte, votre adresse courriel est conservée par Firebase Authentication. Avec « Se connecter avec Apple », vous pouvez masquer votre adresse réelle.</li>
+<li><strong>Compte.</strong> Au premier lancement, tvQ crée une session anonyme Firebase (un identifiant aléatoire). Si vous créez un compte, votre adresse courriel est conservée par Firebase Authentication. Avec « Se connecter avec Apple », votre nom est aussi conservé si vous choisissez de le partager (il sert seulement à l'affichage dans l'app), et vous pouvez masquer votre adresse réelle.</li>
 <li><strong>Séries suivies et préférences d'alerte.</strong> La liste des séries que vous suivez et les séries pour lesquelles vous avez coupé les alertes sont enregistrées dans Cloud Firestore, liées à votre identifiant, pour être synchronisées entre vos appareils.</li>
 <li><strong>Rapports de plantage.</strong> Firebase Crashlytics reçoit des rapports de plantage et de diagnostic (modèle de l'appareil, version d'iOS, trace technique de l'erreur, identifiant d'installation). Ils servent uniquement à corriger les bogues.</li>
 <li><strong>Vérification de l'app.</strong> Firebase App Check utilise App Attest d'Apple pour confirmer que les requêtes viennent bien de tvQ. Aucune donnée personnelle n'est transmise.</li>
@@ -40,7 +40,7 @@
 
 <h2>Data collected</h2>
 <ul>
-<li><strong>Account.</strong> On first launch, tvQ creates an anonymous Firebase session (a random identifier). If you create an account, your email address is stored by Firebase Authentication. With Sign in with Apple, you can hide your real address.</li>
+<li><strong>Account.</strong> On first launch, tvQ creates an anonymous Firebase session (a random identifier). If you create an account, your email address is stored by Firebase Authentication. With Sign in with Apple, your name is also stored if you choose to share it (it is only displayed in the app), and you can hide your real address.</li>
 <li><strong>Followed shows and alert preferences.</strong> The shows you follow and the shows you muted are stored in Cloud Firestore, linked to your identifier, so they sync across your devices.</li>
 <li><strong>Crash reports.</strong> Firebase Crashlytics receives crash and diagnostic reports (device model, iOS version, technical stack trace, installation identifier). They are used only to fix bugs.</li>
 <li><strong>App verification.</strong> Firebase App Check uses Apple's App Attest to confirm requests come from tvQ. No personal data is sent.</li>
